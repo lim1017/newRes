@@ -1,0 +1,237 @@
+{
+    "basics": {
+        "name": "Tommy Lim",
+        "label": "Programmer",
+        "picture": "",
+        "email": "lim1017@gmail.com",
+        "phone": "416-453-8894",
+        "short_summary": "Software engineer, Mechanic, Real Estate, Finance",
+        "summary": "Full-time Developer, Part-time Property manager, Mechanic/Finance background",
+        "profiles": [
+            {
+                "network": "linkedin",
+                "url": "https://www.linkedin.com/in/tlim8894/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Rockmass Technology",
+            "position": "React Developer",
+            "startDate": "2020-11-01",
+            "summary": "Working mainly with React/TypeScript, build and maintain UI for proprietary hardware device & cloud data platform, create new features, fix issues etc.",
+            "location": "Toronto"
+        },
+        {
+            "name": "Lighthouse Labs",
+            "position": "Project Evaluator",
+            "startDate": "2021-12-01",
+            "summary": "Evaluate student projects, by checking requirements, code review, and offering advice and guidance",
+            "location": "Toronto"
+        },
+        {
+            "name": "Lim TFX Investments",
+            "position": "Property Manager",
+            "startDate": "2012-05-01",
+            "summary": "Managed 12+ tenants, across 3 locations, rent collection, troubleshooting repairs, and resolving disputes",
+            "location": "Toronto"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "website": "http://organization.com/",
+            "endDate": "2013-01-01",
+            "summary": "Description...",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Lighthouse Labs",
+            "area": "Web Development",
+            "studyType": "",
+            "startDate": "",
+            "endDate": ""
+        },
+        {
+            "institution": "Ryerson University",
+            "area": "",
+            "studyType": "Finance",
+            "startDate": "",
+            "endDate": ""
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "React",
+            "level": "Master",
+            "value": 100,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Angular",
+            "level": "Master",
+            "value": 80,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "NodeJS",
+            "level": "Master",
+            "value": 40,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Firebase",
+            "level": "Master",
+            "value": 60,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Gmail",
+            "level": "Master",
+            "value": 20,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "K8S",
+            "level": "Master",
+            "value": 80,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        }
+    ],
+    "languages": [
+        { "language": "English", "value": 100, "fluency": "Native speaker" },
+        { "language": "Italien", "value": 15, "fluency": "Native speaker" }
+    ],
+    "interests": [
+        {
+            "name": "France europe gif by nike football",
+            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
+            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
+            "gifUser": {
+                "name": "Nike Football",
+                "profileUrl": "https://giphy.com/nikefootball/",
+                "isVerified": true,
+                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
+            }
+        },
+        {
+            "name": "Burritos",
+            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+        },
+
+        {
+            "name": "Tendresse",
+            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+        },
+        {
+            "name": "Something",
+            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
+        },
+        {
+            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+        }
+    ],
+    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "projects": [
+        {
+            "index": 0,
+            "date": { "month": 6, "year": 2020 },
+            "name": "Piggy Bank",
+            "description": "A Fullstack Budget tracking/financial education App, that allows users to track expenses, create goals, and craft a budget.  Based on these inputs we will calculate how long to reach your goal.",
+            "tech": "React/NodeJS/PostgresSQL",
+            "tech2": "Material-UI, Yahoo News API, ChartsJS",
+            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
+            "images": [
+                { "url": "https://i.ibb.co/cyX5gd2/piggy.png" },
+                { "url": "https://i.ibb.co/17Nt1Kn/piggy2.png" },
+                { "url": "https://i.ibb.co/PWY9P0w/piggy3.png" },
+                { "url": "https://i.ibb.co/nCC1NMk/piggy4.png" }
+            ],
+            "link": "https://thepiggybank.netlify.app/#/welcome",
+            "git": "https://github.com/lim1017/final_lhl",
+            "youtube": "https://www.youtube.com/watch?v=Qd7ejr85uek&t=2s",
+            "endDate": "2020-07-01"
+        },
+        {
+            "index": 1,
+            "date": { "month": 6, "year": 2021 },
+            "name": "Robo Call",
+            "tech": "React",
+            "tech2": "Material-UI, Twillio",
+            "description": "A fun little SPA app utilizing twillio API to robo call or text friends/enemies",
+            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
+            "images": [{ "url": "https://i.ibb.co/DkhVGbZ/robo.png" }],
+            "link": "https://robocall.netlify.app/",
+            "git": "https://github.com/lim1017/robo_call",
+            "endDate": "2021-07-01"
+        }
+    ],
+    "specific": {
+        "basics": {
+            "visaSponsorship": true,
+            "personalDescription": "Front-end Developer, with experience/background in Real Estate/Finance/Mechanic, Seeking the right opportunity to continue my growth journey."
+        },
+        "dreamJob": {
+            "locations": [{ "name": "Valenciennes, France" }, { "name": "Lille, France" }, { "name": "Paris,France" }],
+            "remoteFrequency": "regularly"
+        },
+        "currentJob": {
+            "issues": { "z": true, "boring_team": true }
+        },
+        "education": { "studiesLevel": null },
+        "work": {
+            "contractTypes": ["permanent", "freelance", "internship"],
+            "codingYears": 0,
+            "codingReason": "I love problem solving, and building things, I also like money!",
+            "searchState": "activelySearching",
+            "experienceYears": 0,
+            "codeExperienceYears": null,
+            "otherExperienceYears": null
+        },
+        "sound": {
+            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+        },
+        "interestedBy": "Angular, la blochain et les chatons."
+    },
+    "resumeCustomization": {
+        "imageHeader": {
+            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "alt": "Default Banner"
+        },
+        "cardsOrder": [
+            { "type": "basics", "variant": 4 },
+            { "type": "experiences", "variant": 0 },
+            { "type": "projects", "variant": 4 },
+            { "type": "studies", "variant": 0 },
+            { "type": "skills", "variant": 4 },
+            { "type": "interestedBy", "variant": 0 },
+            { "type": "gifs", "variant": 0 },
+            { "type": "social", "variant": 4 }
+        ],
+        "fields": {
+            "work": {
+                "customDateFormat": "YYYY"
+            }
+        }
+    }
+}

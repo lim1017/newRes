@@ -1,0 +1,19 @@
+@import '../assets/fonts/AvenirNext/stylesheet.css';
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+@tailwind utilities;
+
+html,
+body,
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    animation: fade-in 1s ease;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
