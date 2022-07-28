@@ -1,0 +1,23 @@
+/* Small Screens max width 640px */
+.skillsGrid {
+    display: grid;
+    background-color: 'red';
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-rows: auto;
+    height: auto;
+}
+.skillsGrid img {
+    height: 66px;
+    width: 66px;
+}
+.skills {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}

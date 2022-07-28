@@ -12,6 +12,7 @@ import { styles } from './skills_back_styles';
 import { useCardVariant } from '../../../../hooks/profile_card_hooks/use_card_variant';
 import { existsAndNotEmpty } from '../../../utils/exists_and_not_empty';
 import { NoSkill } from './no_skill/no_skill';
+import { Skills } from '../Skills';
 
 const useStyles = makeStyles(styles);
 
@@ -68,7 +69,8 @@ const Content = ({ data, handleAddButtonClick }) => {
 
     return (
         <div className={classes.container} onScroll={onScroll}>
-            <SkillsPieChart variant={variant} data={top3Skills} onScrollOpacityProps={onScrollOpacityProps} />
+            <Skills />
+            {/* <SkillsPieChart variant={variant} data={top3Skills} onScrollOpacityProps={onScrollOpacityProps} />
             {othersSkills.length > 1 && (
                 <OtherSkills
                     motionProps={{
@@ -78,7 +80,7 @@ const Content = ({ data, handleAddButtonClick }) => {
                     }}
                     othersSkills={othersSkills}
                 />
-            )}
+            )} */}
         </div>
     );
 };
