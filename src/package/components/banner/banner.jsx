@@ -6,6 +6,7 @@ import { FormattedMessage } from 'react-intl';
 import { AnimatePresence, motion } from 'framer-motion';
 
 import { Typography } from '@welovedevs/ui';
+import { Button } from '@mui/material';
 
 import { UserInformations } from './user_actions_row/user_informations/user_informations';
 import { SocialActions } from './user_actions_row/social_actions/social_actions';
@@ -21,6 +22,18 @@ import { useReceivedGlobalClasses } from '../hooks/use_received_global_classes';
 import { styles } from './banner_styles';
 import { useMode } from '../hooks/use_mode';
 import { EditButton } from './user_actions_row/edit_button/edit_button';
+import DownloadIcon from '@mui/icons-material/Download';
+
+import { styled } from '@mui/material/styles';
+import { purple } from '@mui/material/colors';
+
+const DownloadBtn = styled(Button)(({ theme }) => ({
+    color: theme.palette.primary[500],
+    backgroundColor: theme.palette.tertiary[500],
+    '&:hover': {
+        backgroundColor: theme.palette.tertiary[700]
+    }
+}));
 
 const useStyles = makeStyles(styles);
 
@@ -57,9 +70,13 @@ const BannerComponent = ({ customizationOptions, onCustomizationChanged }) => {
             <div className={cn(classes.content, globalReceivedBannerClasses.content)}>
                 <UserInformations />
                 <SocialActions>
-                    {actionsButtons}
-                    {mode === 'edit' && <EditButton />}
-                    {mode === 'edit' && <CustomizeButton customizationOptions={customizationOptions} />}
+                    <a href="https://drive.google.com/open?id=1GV5L-KHXtwkJy9LMRJMoW9eI5o5opznC" target="_blank">
+                        <DownloadBtn size="large" startIcon={<DownloadIcon />}>
+                            Resume
+                        </DownloadBtn>
+                    </a>
+
+                    {/* {actionsButtons} */}
                 </SocialActions>
             </div>
             {bannerImageCredits?.name && (

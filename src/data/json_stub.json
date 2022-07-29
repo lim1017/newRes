@@ -2,10 +2,10 @@
     "basics": {
         "name": "Tommy Lim",
         "label": "Programmer",
-        "picture": "",
+        "picture": "https://i.ibb.co/kyDLg8j/1582766556387.jpg",
         "email": "lim1017@gmail.com",
         "phone": "416-453-8894",
-        "short_summary": "Software engineer, Mechanic, Real Estate, Finance",
+        "short_summary": "A Developer who...",
         "summary": "Full-time Developer, Part-time Property manager, Mechanic/Finance background",
         "profiles": [
             {
@@ -17,7 +17,7 @@
     "work": [
         {
             "name": "Rockmass Technology",
-            "position": "React Developer",
+            "position": "Front-end Developer",
             "startDate": "2020-11-01",
             "summary": "Working mainly with React/TypeScript, build and maintain UI for proprietary hardware device & cloud data platform, create new features, fix issues etc.",
             "location": "Toronto"
@@ -181,7 +181,7 @@
         "sound": {
             "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Cooking, Reading, Deal Hunting, Games"
     },
     "resumeCustomization": {
         "imageHeader": {

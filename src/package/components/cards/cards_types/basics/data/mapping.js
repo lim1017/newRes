@@ -10,7 +10,7 @@ export const mapJsonResumeToBasicData = (jsonResume) => {
 
     return {
         currentCity,
-        summary: 'Developer, Mechanic, Real Estate, Finance',
+        summary: 'A Developer who...',
         experienceYears: jsonResume?.specific?.work?.experienceYears,
         codeExperienceYears: jsonResume?.specific?.work?.codeExperienceYears,
         otherExperienceYears: jsonResume?.specific?.work?.otherExperienceYears,

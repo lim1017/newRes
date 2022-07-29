@@ -48,6 +48,11 @@ export const Skills = () => {
                     alt="The logo icon for NodeJS"
                     title="Node JS"
                 />
+                <Skill
+                    source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+                    alt="The logo icon for Postgres"
+                    title="Postgres"
+                />
                 <Skill source={CypressIcon} alt="The logo icon for NodeJS" title="Node JS" />
                 <Skill
                     source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"

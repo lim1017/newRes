@@ -37,7 +37,12 @@ const InterestedByFrontComponent = ({
 
     return (
         <>
-            <ProfileCardPaddedFront classes={{ container: cn(classes.container, receivedClasses.container) }}>
+            <ProfileCardPaddedFront
+                classes={{
+                    typography: classes.typography,
+                    container: cn(classes.container, receivedClasses.container)
+                }}
+            >
                 <CenterContentContainer>
                     <Content
                         {...{
