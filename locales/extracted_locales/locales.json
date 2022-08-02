@@ -676,7 +676,7 @@
     "id": "Interests.editDialog.title"
   },
   {
-    "defaultMessage": "See all hobbies",
+    "defaultMessage": "See all Memes",
     "id": "Gifs.front.action"
   },
   {
@@ -688,7 +688,7 @@
     "id": "Gifs.noHobby.buttonLabel"
   },
   {
-    "defaultMessage": "Hobbies",
+    "defaultMessage": "Memes",
     "id": "Hobbies.side.commons"
   },
   {

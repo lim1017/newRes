@@ -50,7 +50,7 @@ const GifsFrontComponent = ({ data, handleAddButtonClick }) => {
             {hasHobby && (
                 <ProfileCardActions>
                     <ProfileCardButton onClick={handleButtonClick} overrideColor="light">
-                        <FormattedMessage id="Gifs.front.action" defaultMessage="See all hobbies" />
+                        <FormattedMessage id="Gifs.front.action" defaultMessage="See all Memes" />
                     </ProfileCardButton>
                 </ProfileCardActions>
             )}

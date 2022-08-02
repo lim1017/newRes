@@ -27,7 +27,7 @@ export const GifsSidesCommons = ({ underLayer, children, gifUser, classes: recei
                     container: classes.title
                 }}
             >
-                <FormattedMessage id="Hobbies.side.commons" defaultMessage="Hobbies" />
+                <FormattedMessage id="Hobbies.side.commons" defaultMessage="Memes" />
             </ProfileCardTitle>
             {children}
             {gifUser && <GifAuthorCredits classes={{ container: classes.credits }} user={gifUser} />}
